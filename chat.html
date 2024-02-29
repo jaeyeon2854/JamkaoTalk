@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat w/ Gibeom - JamkaoTalk</title>
+</head>
+<body id="chat-screen">
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span> 
+            <i class="fa-solid fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt"></i>
+        </div>
+    </div>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="javascript:history.back()">
+            <i class="fa-solid fa-angle-left fa-2x"></i>
+        </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Gibeom</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+            <span><i class="fa-solid fa-bars fa-xl"></i></span>
+        </div>
+    </header>
+    
+    <main class="friends-screen main-chat">
+        <div class="chat__timestamp">
+            Wednesday, February 28, 2024
+        </div>
+        <div class="message-row">
+            <img src="기범이사진.jpeg">
+            <div class="message-row__content">
+                <span class="message__author">Gibeom</span>
+                <div class="message__info">
+                    <span class="message__bubble">재연아 안뇽~~</span>
+                    <span class="message__time">21:22</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">안뇽안뇽~~ 오랜만이야~~</span>
+                    <span class="message__time">21:24</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="write a message ...">
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+
+
+    <script src="https://kit.fontawesome.com/197e214980.js" crossorigin="anonymous"></script>
+</body>
+</html>
