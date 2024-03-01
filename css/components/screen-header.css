@@ -7,6 +7,10 @@
     margin-bottom: 15px;
 }
 
+.screen-header a{
+    color: inherit;
+}
+
 .screen-header__title{
     font-size: 32px;
     font-weight: 600;
